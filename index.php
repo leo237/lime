@@ -10,7 +10,7 @@
     $img = str_replace(' ', '+', $img);
     $data = base64_decode($img);
     
-    $data = $rawImage;
+    //$data = $rawImage;
     $fileName = uniqid() . '.jpg';
     $file = UPLOAD_DIR . $fileName;
 
